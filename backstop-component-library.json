@@ -1,0 +1,424 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 800
+    }
+  ],
+  "onBeforeScript": "chromy/onBefore.js",
+  "onReadyScript": "chromy/onReady.js",
+  "scenarios": [
+    {
+      "label": "Accordion",
+      "url": "http://localhost:9042/section-accordion.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Add-remove",
+      "url": "http://localhost:9042/section-add-remove.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "clickSelector": "a[data-add-btn]",
+      "selectorExpansion": true
+    },
+    {
+      "label": "Alpha",
+      "url": "http://localhost:9042/section-alpha.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "App-info",
+      "url": "http://localhost:9042/section-app-info.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Attorney-banner",
+      "url": "http://localhost:9042/section-attorney-banner.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Autocomplete",
+      "url": "http://localhost:9042/section-autocomplete.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Beta",
+      "url": "http://localhost:9042/section-beta.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Breadcrumbs",
+      "url": "http://localhost:9042/section-breadcrumbs.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Buttons",
+      "url": "http://localhost:9042/section-buttons.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Code",
+      "url": "http://localhost:9042/section-code.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Datatable",
+      "url": "http://localhost:9042/section-datatable.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Details",
+      "url": "http://localhost:9042/section-details.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "clickSelector": "summary",
+      "selectorExpansion": true
+    },
+    {
+      "label": "Dividers",
+      "url": "http://localhost:9042/section-dividers.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Errors",
+      "url": "http://localhost:9042/section-errors.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "External-markup",
+      "url": "http://localhost:9042/section-external-markup.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Flag",
+      "url": "http://localhost:9042/section-flag.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Form-hint",
+      "url": "http://localhost:9042/section-form-hint.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Form",
+      "url": "http://localhost:9042/section-form.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "clickSelector": "#continue",
+      "selectorExpansion": true
+    },
+    {
+      "label": "Header",
+      "url": "http://localhost:9042/section-header.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Hero",
+      "url": "http://localhost:9042/section-hero.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Icons",
+      "url": "http://localhost:9042/section-icons.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Indent",
+      "url": "http://localhost:9042/section-indent.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Label",
+      "url": "http://localhost:9042/section-label.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Layout",
+      "url": "http://localhost:9042/section-layout.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Links",
+      "url": "http://localhost:9042/section-links.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Lists",
+      "url": "http://localhost:9042/section-lists.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Load-partial",
+      "url": "http://localhost:9042/section-load-partial.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Navigation",
+      "url": "http://localhost:9042/section-navigation.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Notification-banner",
+      "url": "http://localhost:9042/section-notification-banner.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Notification",
+      "url": "http://localhost:9042/section-notification.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Organisation-logo",
+      "url": "http://localhost:9042/section-organisation-logo.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Page-header",
+      "url": "http://localhost:9042/section-page-header.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Panel",
+      "url": "http://localhost:9042/section-panel.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Radio-input",
+      "url": "http://localhost:9042/section-radio-input.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Reminders",
+      "url": "http://localhost:9042/section-reminders.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Section",
+      "url": "http://localhost:9042/section-section.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Select-input",
+      "url": "http://localhost:9042/section-select-input.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Service-info",
+      "url": "http://localhost:9042/section-service-info.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Side-navigation",
+      "url": "http://localhost:9042/section-side-navigation.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Table",
+      "url": "http://localhost:9042/section-table.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Tabs",
+      "url": "http://localhost:9042/section-tabs.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Tabular-data",
+      "url": "http://localhost:9042/section-tabular-data.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Template-page-header",
+      "url": "http://localhost:9042/section-template-page-header.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Text-input",
+      "url": "http://localhost:9042/section-text-input.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Textarea-input",
+      "url": "http://localhost:9042/section-textarea-input.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Toggle-button",
+      "url": "http://localhost:9042/section-toggle-button.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Typography",
+      "url": "http://localhost:9042/section-typography.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Youtube-player",
+      "url": "http://localhost:9042/section-youtube-player.html",
+      "selectors": [
+        ".comp-lib-pattern-component"
+      ],
+      "selectorExpansion": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_component_library/bitmaps_reference",
+    "bitmaps_test": "backstop_component_library/bitmaps_test",
+    "engine_scripts": "backstop_component_library/engine_scripts",
+    "html_report": "backstop_component_library/html_report",
+    "ci_report": "backstop_component_library/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "chrome",
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
