@@ -23,9 +23,7 @@
     {
       "label": "Accordion",
       "url": "http://localhost:9042/section-accordion.html",
-      "selectors": [
-        ".comp-lib-pattern-component"
-      ],
+      "selectors": [".comp-lib-pattern-component"],
       "selectorExpansion": true
     },
     {
@@ -64,9 +62,7 @@
     {
       "label": "Autocomplete",
       "url": "http://localhost:9042/section-autocomplete.html",
-      "selectors": [
-        ".comp-lib-pattern-component"
-      ],
+      "selectors": [".comp-lib-pattern-component"],
       "selectorExpansion": true
     },
     {
@@ -164,7 +160,7 @@
       "selectors": [
         ".comp-lib-pattern-component"
       ],
-      "clickSelector": "#continue",
+      "clickSelector": "input",
       "selectorExpansion": true
     },
     {
@@ -290,9 +286,8 @@
     {
       "label": "Radio-input",
       "url": "http://localhost:9042/section-radio-input.html",
-      "selectors": [
-        ".comp-lib-pattern-component"
-      ],
+      "selectors": [".comp-lib-pattern-component"],
+      "clickSelector": "input",
       "selectorExpansion": true
     },
     {
@@ -402,9 +397,7 @@
     {
       "label": "Youtube-player",
       "url": "http://localhost:9042/section-youtube-player.html",
-      "selectors": [
-        ".comp-lib-pattern-component"
-      ],
+      "selectors": [".comp-lib-pattern-component"],
       "selectorExpansion": true
     }
   ],
