@@ -19,11 +19,6 @@
   ],
   "onBeforeScript": "chromy/onBefore.js",
   "onReadyScript": "chromy/onReady.js",
-  "removeSelectors": [
-    ".app-pane__header",
-    ".app-pane__toc",
-    "pre"
-  ],
   "scenarios": [
     {
       "label": "Account Menu",
@@ -73,6 +68,6 @@
   "engine": "chrome",
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
-  "debug": true,
+  "debug": false,
   "debugWindow": false
 }
