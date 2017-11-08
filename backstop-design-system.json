@@ -1,0 +1,78 @@
+{
+  "id": "design_system",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 800
+    }
+  ],
+  "onBeforeScript": "chromy/onBefore.js",
+  "onReadyScript": "chromy/onReady.js",
+  "removeSelectors": [
+    ".app-pane__header",
+    ".app-pane__toc",
+    "pre"
+  ],
+  "scenarios": [
+    {
+      "label": "Account Menu",
+      "url": "http://localhost:9034/components/account-menu/index.html",
+      "selectors": [".scale"],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Character Counter",
+      "url": "http://localhost:9034/components/character-counter/index.html",
+      "selectors": [".example"],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Header",
+      "url": "http://localhost:9034/components/header/index.html",
+      "selectors": [".scale"],
+      "selectorExpansion": true
+    },
+    {
+      "label": "404 Page",
+      "url": "http://localhost:9034/patterns/404-page/index.html",
+      "selectors": [".scale"],
+      "selectorExpansion": true
+    },
+    {
+      "label": "500 Pages",
+      "url": "http://localhost:9034/patterns/500-pages/index.html",
+      "selectors": [".scale"],
+      "selectorExpansion": true
+    },
+    {
+      "label": "Shutter Pages",
+      "url": "http://localhost:9034/patterns/shutter-pages/index.html",
+      "selectors": [".scale"],
+      "selectorExpansion": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_design_system/bitmaps_reference",
+    "bitmaps_test": "backstop_design_system/bitmaps_test",
+    "engine_scripts": "backstop_design_system/engine_scripts",
+    "html_report": "backstop_design_system/html_report",
+    "ci_report": "backstop_design_system/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "chrome",
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": true,
+  "debugWindow": false
+}
