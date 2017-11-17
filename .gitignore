@@ -20,3 +20,5 @@ design-pattern-library/
 vrt-output/
 backstop.json
 .project
+backstop_component_library/bitmaps_test/
+backstop_component_library/html_report/
