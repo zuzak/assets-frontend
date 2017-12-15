@@ -4,7 +4,7 @@ To propose or share a new or adapted component or pattern, you should [raise an 
 
 First, check whether an issue has already been raised using the search function. If it has, you can add your findings to the existing issue.
 
-If it hasn’t, you can use the following blank template to provide information about the component or pattern. You do not have to complete all sections, but please provide as much evidence as you can.
+If it has not, you can use the following blank template to provide information about the component or pattern. You do not have to complete all sections, but you should provide as much evidence as you can.
 
 # [Name of component/pattern]
 
