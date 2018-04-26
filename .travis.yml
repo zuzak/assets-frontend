@@ -1,6 +1,0 @@
-sudo: false
-language: node_js
-node_js:
-  - 4.8.4
-before_install: git fetch origin master:master
-script: ./server.sh release
