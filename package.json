@@ -22,7 +22,9 @@
     "component-library": "gulp component-library",
     "design-system": "gulp design-system",
     "vrt:baseline": "gulp vrt-baseline",
-    "vrt:compare": "gulp vrt-compare"
+    "vrt:compare": "gulp vrt-compare",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "HMRC",
@@ -32,7 +34,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "backstopjs": "hmrc/BackstopJS",
-    "browser-sync": "^2.4.0",
+    "browser-sync": "^2.26.0",
     "browserify": "^14.4.0",
     "browserify-shim": "^3.8.14",
     "bundle-collapser": "^1.2.1",
@@ -46,13 +48,13 @@
     "gulp-concat": "^2.6.1",
     "gulp-if": "^2.0.2",
     "gulp-json-editor": "^2.2.1",
-    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-modernizr": "^1.0.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.6.1",
-    "gulp-sass": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-stylelint": "^4.0.0",
     "gulp-svgmin": "^1.2.4",
     "gulp-uglify": "^3.0.0",
@@ -64,18 +66,18 @@
     "jquery-validation": "1.13.1",
     "js-base64": "^2.1.7",
     "json3": "^3.3.2",
-    "karma": "^1.7.0",
-    "karma-browserify": "^5.1.1",
+    "karma": "^1.7.1",
+    "karma-browserify": "^5.3.0",
     "karma-jasmine": "1.1.0",
     "karma-jasmine-jquery": "hmrc/karma-jasmine-jquery#5f308457fd",
     "karma-jasmine-matchers": "^3.7.0",
     "karma-junit-reporter": "^1.2.0",
-    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
     "karma-script-launcher": "^1.0.0",
     "karma-spec-reporter": "0.0.31",
     "kss": "^2.4.0",
     "modernizr": "^3.0.0-alpha.4",
-    "phantomjs-prebuilt": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.16",
     "pretty-hrtime": "^1.0.0",
     "require-dir": "^0.3.2",
     "run-sequence": "^2.1.0",
@@ -87,8 +89,9 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "vinyl-transform": "^1.0.0",
-    "watchify": "^3.9.0",
-    "yargs": "^8.0.2"
+    "watchify": "^3.11.0",
+    "yargs": "^8.0.2",
+    "snyk": "^1.103.4"
   },
   "browserify": {
     "transform": [
@@ -150,5 +153,6 @@
     "sinon": "^1.17.7",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
-  }
+  },
+  "snyk": true
 }
