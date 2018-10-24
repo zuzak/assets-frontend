@@ -22,7 +22,9 @@
     "component-library": "gulp component-library",
     "design-system": "gulp design-system",
     "vrt:baseline": "gulp vrt-baseline",
-    "vrt:compare": "gulp vrt-compare"
+    "vrt:compare": "gulp vrt-compare",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "HMRC",
@@ -32,7 +34,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "backstopjs": "hmrc/BackstopJS",
-    "browser-sync": "^2.4.0",
+    "browser-sync": "^2.24.0",
     "browserify": "^14.4.0",
     "browserify-shim": "^3.8.14",
     "bundle-collapser": "^1.2.1",
@@ -41,17 +43,17 @@
     "fingerprintjs": "^0.5.3",
     "govuk-elements-sass": "^3.1.2",
     "govuk_frontend_toolkit": "^7.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-if": "^2.0.2",
     "gulp-json-editor": "^2.2.1",
-    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-modernizr": "^1.0.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.6.1",
-    "gulp-sass": "^3.0.0",
+    "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-stylelint": "^4.0.0",
     "gulp-svgmin": "^1.2.4",
@@ -64,7 +66,7 @@
     "jquery-validation": "1.13.1",
     "js-base64": "^2.1.7",
     "json3": "^3.3.2",
-    "karma": "^1.7.0",
+    "karma": "^1.7.1",
     "karma-browserify": "^5.1.1",
     "karma-jasmine": "1.1.0",
     "karma-jasmine-jquery": "hmrc/karma-jasmine-jquery#5f308457fd",
@@ -87,8 +89,9 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "vinyl-transform": "^1.0.0",
-    "watchify": "^3.9.0",
-    "yargs": "^8.0.2"
+    "watchify": "^3.11.0",
+    "yargs": "^8.0.2",
+    "snyk": "^1.104.2"
   },
   "browserify": {
     "transform": [
@@ -150,5 +153,6 @@
     "sinon": "^1.17.7",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
-  }
+  },
+  "snyk": true
 }
