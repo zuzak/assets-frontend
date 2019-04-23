@@ -32,7 +32,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "backstopjs": "hmrc/BackstopJS",
-    "browser-sync": "^2.4.0",
+    "browser-sync": "^2.26.4",
     "browserify": "^14.4.0",
     "browserify-shim": "^3.8.14",
     "bundle-collapser": "^1.2.1",
